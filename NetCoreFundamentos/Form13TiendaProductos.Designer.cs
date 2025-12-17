@@ -173,6 +173,7 @@
             Almacen.Name = "Almacen";
             Almacen.Size = new Size(120, 139);
             Almacen.TabIndex = 6;
+            Almacen.SelectedIndexChanged += Almacen_SelectedIndexChanged;
             // 
             // Form13TiendaProductos
             // 
